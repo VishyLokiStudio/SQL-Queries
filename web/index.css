@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between; /* Ensures buttons stay at the bottom */
+    background-color: #f4f4f4; /* Light background for better contrast */
+}
+
+h2, h3 {
+    margin: 10px 0; /* Reduced margin for headings */
+    text-align: center; /* Centered headings for aesthetics */
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px 0; /* Margin for better spacing */
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #333; /* Darker border for better visibility */
+}
+
+th, td {
+    padding: 12px; /* Increased padding for better touch targets */
+    text-align: center;
+}
+
+.table-container {
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for tables */
+    border-radius: 8px; /* Rounded corners for aesthetic */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 15px; /* Padding inside table containers */
+}
+
+.button {
+    padding: 12px 15px; /* Increased padding for touch comfort */
+    margin: 10px 0;
+    background-color: #4CAF50; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer;
+    width: 100%; /* Make buttons full width */
+    font-size: 18px; /* Larger font size for readability */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+.prompt-output {
+    background-color: #f9f9f9; /* Light background for output */
+    border: 1px solid #ccc;
+    padding: 10px;
+    white-space: pre-wrap;
+    margin-bottom: 20px;
+    overflow-y: auto; /* Add scroll for overflow */
+    max-height: 150px; /* Limit height for overflow */
+    border-radius: 4px; /* Rounded corners for output */
+}
+
+.custom-name,
+.input-field {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px; /* Increased padding for input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+.text-area {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px; /* Increased padding for text areas */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for better readability */
+    height: 50px; /* Set height for text area */
+}
