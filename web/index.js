@@ -106,14 +106,14 @@ let tableCount = 0;
             additionalTextBoxes.forEach(textBox => {
                 const additionalText = textBox.value.trim();
                 if (additionalText) {
-                    promptText += `Additional Text:\n${additionalText}\n`;
+                    promptText += `\n${additionalText}\n`;
                 }
             });
 
             // Add initial additional text
             const initialTextAreaValue = document.getElementById('initial-text-area').value.trim();
             if (initialTextAreaValue) {
-                promptText += `Initial Additional Text:\n${initialTextAreaValue}\n`;
+                promptText += `\n${initialTextAreaValue}\n`;
             }
 
             document.getElementById('prompt-output').innerText = promptText.trim();
